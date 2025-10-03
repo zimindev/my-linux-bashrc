@@ -1,3 +1,4 @@
+```bash
 # ~/.bashrc
 
 [[ $- != *i* ]] && return
@@ -66,7 +67,7 @@ if [ -f /etc/os-release ]; then
             alias cleanup='sudo apt autoremove'
             alias emptycache='sudo apt clean'
             alias emptytrash='rm -rf ~/.local/share/Trash/files/* ~/.local/share/Trash/info/*'
-            ;;
+            ;;Update README.md
         fedora)
             alias update='sudo dnf check-update'
             alias upgrade='sudo dnf upgrade'
@@ -78,3 +79,4 @@ if [ -f /etc/os-release ]; then
             ;;
     esac
 fi
+```
